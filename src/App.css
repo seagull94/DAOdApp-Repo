@@ -1,0 +1,93 @@
+body {
+  background-color: #e0f7fa; /* Very light teal background */
+  color: #34495e; /* Darker text for better readability */
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.app {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff; /* White background for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.header {
+  font-size: 2.5em;
+  color: #009688; /* Bright teal color */
+}
+
+.section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #e0f7fa; /* Very light teal background */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input,
+.textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #009688; /* Bright teal color */
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.textarea {
+  height: 100px;
+}
+
+.button {
+  background-color: #009688; /* Bright teal color */
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #00796b; /* Darker teal color on hover */
+}
+
+.description-container {
+  margin: 20px 0;
+}
+
+.description {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
